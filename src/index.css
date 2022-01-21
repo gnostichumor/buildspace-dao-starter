@@ -4,7 +4,7 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
+  background-color: #040a1f;
   color: #fff;
   overflow-x: hidden;
 }
@@ -16,9 +16,16 @@ body {
 h1 {
   font-size: 5rem;
 }
+h2 {
+  font-size: 2rem;
+}
+
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 3rem;
+  }
+  h2 {
+    font-size: 1rem;
   }
 }
 
@@ -48,7 +55,7 @@ h1 {
 .member-page {
   flex-direction: column;
   width: 960px;
-  max-width: calc(100% - 1rem);
+  max-width: calc(100% - .5rem);
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   margin: auto;
@@ -62,7 +69,7 @@ h1 {
   flex-direction: row;
   width: 100%;
   text-align: left;
-  gap: 2rem;
+  gap: 1rem;
 }
 .member-page > div > div {
   display: flex;
@@ -93,7 +100,7 @@ h1 {
 
 .member-page form h5 {
   margin-top: 0;
-  color: #7700ee;
+  color: #000000;
 }
 
 .member-page form .card > div {
